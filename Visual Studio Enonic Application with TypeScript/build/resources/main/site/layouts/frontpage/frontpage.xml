@@ -1,0 +1,9 @@
+<layout>
+  <display-name>frontpage row</display-name>
+  <config>
+  </config>
+  <regions>
+    <region name="left"/>
+    <region name="right"/>
+  </regions>
+</layout>

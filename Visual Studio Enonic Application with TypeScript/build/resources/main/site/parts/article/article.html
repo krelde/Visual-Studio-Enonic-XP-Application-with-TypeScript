@@ -1,0 +1,96 @@
+﻿<div data-th-class="${(isTopicArticle ? 'main-content main-content-three-col' : 'main-content main-content-one-col')}">
+    <ul class="breadcrumb" data-th-if="${breadcrumbs}">
+        <li data-th-each="item,itr : ${breadcrumbs}" data-th-class="${(item.isActive ? ' active' : '')}">
+            <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" data-th-text="${item.name}">Page</a>
+            <i data-th-if="${itr.index != (itr.size -1)}" class="fa fa-angle-right" aria-hidden="true"></i>
+        </li>
+    </ul>
+    <div data-th-class="${(isTopicArticle ? 'article topic-article' : 'article news-article')}">
+        <th:block data-th-if="${pagename}">
+            <h2 class="main-title" data-th-text="${pagename}"></h2>
+        </th:block>
+
+        <div class="page-content">
+            <th:block data-th-if="${mainintro}">
+                <p class="introduction">
+                    <strong data-th-text="${mainintro}"></strong>
+                </p>
+            </th:block>
+
+            <th:block data-th-if="${relatedContent}">
+                <div class="related-content-container">
+                    <div data-th-each="item : ${relatedContent}" class="related-content-item">
+                        <a data-th-href="${portal.pageUrl({'_path=' + item.path})}">
+                            <div class="related-content-title" style="" data-th-text="${item.name}"></div>
+                            <p class="related-content-intro" data-th-text="${item.intro}"></p>
+                        </a>
+                    </div>
+                </div>
+            </th:block>
+
+            <th:block data-th-if="${mainbody}">
+                <div data-th-utext="${mainbody}" class="main-body"></div>
+            </th:block>
+
+            <th:block data-th-if="${attachments}">
+                <table class="attachments">
+                    <thead>
+                    <tr>
+                        <th class="hidden-mobile">
+                            Nr.
+                        </th>
+                        <th>
+                            Navn
+                        </th>
+                        <th class="hidden-mobile">
+                            Tema
+                        </th>
+                        <th class="hidden-mobile">
+                            Tilsynspart
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr data-th-each="item : ${attachments}">
+                        <td data-th-text="${item.number}" class="hidden-mobile"></td>
+                        <td>
+                            <a data-th-href="${portal.attachmentUrl({'_id=' + item.id})}" data-th-text="${item.name}" target="_blank">
+                            </a>
+                        </td>
+                        <td data-th-text="${item.topic}" class="hidden-mobile">NYI</td>
+                        <td class="hidden-mobile" data-th-text="${item.supervision}"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </th:block>
+        </div>
+        <th:block data-th-if="${image}">
+            <div class="image-container main-image-container clearfix">
+                <img data-th-alt="${imageCaption}" class="" data-th-src="${image}" />
+                <p class="caption" data-th-if="${imagecaption}">
+                    <span data-th-text="${imagecaption}"></span>
+                    <em class="image-byline" data-th-utext="${imagecaptionbyline}"></em>
+                </p>
+            </div>
+        </th:block>
+        <div class="share-content">
+            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.a0ec3119d8db2bc5422f2144c89ad7a9.no.html#dnt=false&amp;id=twitter-widget-0&amp;lang=no&amp;original_referer=http%3A%2F%2Fwww.vegtilsynet.com%2FTilsyn%2FTilsynsrapportar&amp;size=l&amp;text=Tilsynsrapportar&amp;time=1488798775542&amp;type=share&amp;url=%2FTilsyn%2FTilsynsrapportar" style="position: static; visibility: visible; width: 75px; height: 28px;" data-url="/Tilsyn/Tilsynsrapportar"></iframe>
+            <script id="twitter-wjs" src="//platform.twitter.com/widgets.js"></script>
+            <script>
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+            </script>
+            <div id="emailtip-container">
+                <a data-th-href="${systemPage}" class="btn btn-search" id="tips-paa-epost">Tips på epost</a>
+            </div>
+        </div>
+    </div>
+   
+</div>

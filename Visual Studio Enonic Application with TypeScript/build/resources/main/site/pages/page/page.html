@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html data-th-lang="${lang}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-th-text="${title}"></title>
+    <link data-th-href="${portal.assetUrl({'_path=css/bootstrap.min.css'})}" rel="stylesheet" />
+    <link data-th-href="${portal.assetUrl({'_path=css/vegtilsynet.css'})}" rel="stylesheet" />
+    <link data-th-href="${portal.assetUrl({'_path=css/mobil.css'})}" rel="stylesheet" media="all and (max-width:460px)" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body class="desktop">
+    <div id="header">
+        <div class="container">
+            <h1 id="logo">
+                <a href="/">Vegtilsynet</a>
+            </h1>
+            <ul class="nav-global">
+                <li data-th-each="item : ${topMenu}" data-th-class="${(item.isActive ? ' active' : '')}">
+                    <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" data-th-text="${item.name}">Page</a>
+                </li>
+            </ul>
+            <i class="fa fa-bars visible-mobile menu-icon" aria-hidden="true"></i>
+            <form method="get" id="searchform" data-th-action="${searchPage}" action="#" role="search" class="form-search">
+                <input type="text" class="search-query" name="s" value="" id="s" placeholder="Søk" />
+                <button type="submit" class="search-btn" name="submit" id="searchsubmit" value="">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+          
+        
+        </div>
+    </div>
+    <style>
+      
+
+            
+    </style>
+    <div class="menuWrapper visible-mobile">
+        <div class="clearfix"></div>
+        <div class="mobile-menu" id="menu">
+            <ul>
+                <li data-th-each="item : ${topMenu}">
+                    <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" data-th-text="${item.name}">Page</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div data-th-class="${isSite ? 'container clearfix header-space' : 'container clearfix'}">
+        <main data-portal-region="main">
+            <th:block data-th-if="${regions and regions.main}">
+                <th:block data-th-each="component : ${regions.main.components}">
+                    <th:block data-portal-component="${component.path}"></th:block>
+                </th:block>
+            </th:block>
+        </main>
+    </div>
+
+    <div id="footer">
+        <div class="container footer-container">
+            <div class="widget footer-widget">
+                <h3 class="footer-header">Kontaktinformasjon</h3>
+                <div class="postal footer-content">
+                    <h4>Vegtilsynet Voss</h4>
+                    <p data-th-text="${footer.adress}">
+                    </p>
+                </div>
+                <div class="phone footer-content">
+                    <h4>Telefon</h4>
+                    <p data-th-text="${footer.phone}">
+                    </p>
+                </div>
+                <div class="email footer-content">
+                    <h4>E-post</h4>
+                    <th:block data-th-if="${footer.email}">
+                        <p><a data-th-href="@{'mailto:'} + ${footer.email}" data-th-text="${footer.email}"></a></p>
+                    </th:block>
+                </div>
+                <div class="redaktor footer-content">
+                    <h4>Webredaktør</h4>
+                    <th:block data-th-if="${footer.editor}">
+                        <p><a data-th-href="@{'mailto:'} + ${footer.editoremail}" data-th-text="${footer.editor}"></a></p>
+                    </th:block>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" data-th-src="${portal.assetUrl({'_path=scripts/jquery.js'})}"></script>
+    <script type="text/javascript" data-th-src="${portal.assetUrl({'_path=scripts/vts.js'})}"></script>
+    <script>
+        $(function () {
+            $(".menu-icon").click(function () {
+                if ($(this).hasClass("open")) {
+                    $(this).removeClass("open");
+                    $(this).addClass("fa-bars");
+                    $(this).removeClass("fa-times");
+                    $(".menuWrapper").removeClass("open");
+                    $("#menu").removeClass("open");
+                } else {
+                    $(this).addClass("open");
+                    $(this).addClass("fa-times");
+                    $(this).removeClass("fa-bars");
+                    $(".menuWrapper").addClass("open");
+                    $("#menu").addClass("open");
+                }
+            });
+        })
+    </script>
+
+</body>
+
+</html>

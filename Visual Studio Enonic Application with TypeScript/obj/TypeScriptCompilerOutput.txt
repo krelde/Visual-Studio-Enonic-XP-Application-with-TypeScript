@@ -1,0 +1,48 @@
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\layout\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\page\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic starter typescript\src\main\resources\lib\xp\part\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\layout\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\layout\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\page\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\page\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\part\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Enonic Application with TypeScript\src\main\resources\lib\xp\part\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\layout\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\layout\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\page\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\page\controller.js.map
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\part\controller.js
+C:\Users\Administrator\Desktop\Enonic Templates\Template\Visual Studio Enonic Application with TypeScript\src\main\resources\lib\xp\part\controller.js.map

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<part>
+  <display-name>top-article</display-name>
+  <config>
+    <input type="ContentSelector" name="toparticle">
+      <label>Top article</label>
+      <occurrences minimum="0" maximum="1"/>
+      <config>
+        <relationship-type>system:reference</relationship-type>
+        <allow-content-type>article</allow-content-type>
+      </config>
+    </input>
+    <input type="TextLine" name="heading">
+      <label>Heading</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="TextArea" name="description">
+      <label>Description</label>
+    </input>
+  </config>
+</part>

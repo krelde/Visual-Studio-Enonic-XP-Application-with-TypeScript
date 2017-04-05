@@ -1,0 +1,6 @@
+﻿<ul class="focus-articles" >
+    <li class="article focus-article" data-th-each="item : ${focusArticles}">
+        <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" class="focus-image"><img class="focus-image" data-th-if="${item.img}" data-th-src="${item.img}"/></a>
+        <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" data-th-text="${item.name}" class="focus-title" target="_top"></a>
+    </li>
+</ul>

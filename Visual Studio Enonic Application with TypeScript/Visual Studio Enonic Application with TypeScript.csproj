@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="FindConfigFiles;CompileTypeScript;CompileTypeScriptWithTSConfig;EnonicGradle;" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{E4D6E6D7-73F0-4FE6-B24B-5871909D6899}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="build.gradle" />
+    <Content Include="build\resources\main\admin\tools\.gitkeep" />
+    <Content Include="build\resources\main\admin\widgets\.gitkeep" />
+    <Content Include="build\resources\main\assets\.gitkeep" />
+    <Content Include="build\resources\main\lib\.gitkeep" />
+    <Content Include="build\resources\main\services\.gitkeep" />
+    <Content Include="build\resources\main\site\content-types\.gitkeep" />
+    <Content Include="build\resources\main\site\error\.gitkeep" />
+    <Content Include="build\resources\main\site\filters\.gitkeep" />
+    <Content Include="build\resources\main\site\i18n\.gitkeep" />
+    <Content Include="build\resources\main\site\layouts\.gitkeep" />
+    <Content Include="build\resources\main\site\mixins\.gitkeep" />
+    <Content Include="build\resources\main\site\pages\.gitkeep" />
+    <Content Include="build\resources\main\site\parts\.gitkeep" />
+    <Content Include="build\resources\main\views\.gitkeep" />
+    <Content Include="build\tmp\jar\MANIFEST.MF" />
+    <Content Include="build\vs\ts\TypeScript.Tasks.dll" />
+    <Content Include="gradle.properties" />
+    <Content Include="gradlew" />
+    <Content Include="gradlew.bat" />
+    <Content Include="gradle\wrapper\gradle-wrapper.properties" />
+    <Content Include="settings.gradle" />
+    <Content Include="src\main\java\.gitkeep" />
+    <Content Include="src\main\resources\admin\tools\.gitkeep" />
+    <Content Include="src\main\resources\admin\widgets\.gitkeep" />
+    <Content Include="src\main\resources\application.svg" />
+    <Content Include="src\main\resources\application.xml" />
+    <Content Include="src\main\resources\assets\.gitkeep" />
+    <Content Include="src\main\resources\lib\.gitkeep" />
+    <Content Include="src\main\resources\services\.gitkeep" />
+    <Content Include="src\main\resources\site\content-types\.gitkeep" />
+    <Content Include="src\main\resources\site\content-types\article.xml" />
+    <Content Include="src\main\resources\site\error\.gitkeep" />
+    <Content Include="src\main\resources\site\filters\.gitkeep" />
+    <Content Include="src\main\resources\site\i18n\.gitkeep" />
+    <Content Include="src\main\resources\site\layouts\.gitkeep" />
+    <Content Include="src\main\resources\site\mixins\.gitkeep" />
+    <Content Include="src\main\resources\site\pages\.gitkeep" />
+    <Content Include="src\main\resources\site\parts\.gitkeep" />
+    <Content Include="src\main\resources\views\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\resources\main\site\site.xml" />
+    <Content Include="gradle\wrapper\gradle-wrapper.jar" />
+    <Content Include="src\main\resources\site\site.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".gradle\2.9\" />
+    <Folder Include="build\libs\" />
+    <Folder Include="build\vs\ts\cs\" />
+    <Folder Include="build\vs\ts\de\" />
+    <Folder Include="build\vs\ts\es\" />
+    <Folder Include="build\vs\ts\fr\" />
+    <Folder Include="build\vs\ts\it\" />
+    <Folder Include="build\vs\ts\ja\" />
+    <Folder Include="build\vs\ts\ko\" />
+    <Folder Include="build\vs\ts\log\" />
+    <Folder Include="build\vs\ts\pl\" />
+    <Folder Include="build\vs\ts\pt-BR\" />
+    <Folder Include="build\vs\ts\ru\" />
+    <Folder Include="build\vs\ts\tr\" />
+    <Folder Include="build\vs\ts\zh-Hans\" />
+    <Folder Include="build\vs\ts\zh-Hant\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\main\resources\lib\xp\controller.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\auth.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\xslt.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\websocket.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\value.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\task.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\repo.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\node.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\mustache.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\io.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\i18n.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\httpclient.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\event.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\context.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\mail.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\content.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\portal.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\cahce.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\thymeleaf.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\xp.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\global.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\layout\controller.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\page\controller.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\part\controller.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\vs\ts\Microsoft.Typescript.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\vs\gradle\Enonic.Gradle.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="build\vs\ts\ProjectItemsSchema.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="build\vs\ts\TypeScriptCompile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="build\vs\ts\TypeScriptProjectProperties.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\vs\ts\Microsoft.TypeScript.Default.props" />
+    <Content Include="build\vs\ts\Microsoft.TypeScript.DNX.targets" />
+    <Content Include="build\vs\ts\Microsoft.TypeScript.jsproj.targets" />
+  </ItemGroup>
+  <PropertyGroup>
+    <AssemblyName>EnonicStarterTypescript</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <OutputPath>.\</OutputPath>
+    <PublishDatabases>false</PublishDatabases>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <TypeScriptTarget>es5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="..\$(SolutionName)\build\vs\ts\Microsoft.TypeScript.targets" />
+  <Import Project="..\$(SolutionName)\build\vs\gradle\Enonic.Gradle.targets" />
+  <Target DependsOnTargets="FindConfigFiles;TypeScriptClean;TypeScriptCleanWithTSConfig;" Name="Clean" />
+  <Target DependsOnTargets="Clean;CompileTypeScript;" Name="Rebuild" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:36766/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

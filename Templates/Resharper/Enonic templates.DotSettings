@@ -1,0 +1,187 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/Description/@EntryValue">Empty HTML file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/Categories/=Enonic/@EntryIndexedValue">Enonic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/CustomProperties/=Extension/@EntryIndexedValue">html</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/CustomProperties/=FileName/@EntryIndexedValue">NewFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25A055EFBF01D346BBE2009318C7CC61/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/Description/@EntryValue">Empty Javascript file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/Categories/=Enonic/@EntryIndexedValue">Enonic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/CustomProperties/=FileName/@EntryIndexedValue">NewFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A9F5076B5917EF48A7D12DAC6024D0C8/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/Type/@EntryValue">InAnyProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/Description/@EntryValue">Empty TS file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/Categories/=Enonic/@EntryIndexedValue">Enonic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/CustomProperties/=Extension/@EntryIndexedValue">ts</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/CustomProperties/=FileName/@EntryIndexedValue">EmptyTs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F9918F98219A1429EF13EC5584F6D27/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Description/@EntryValue">EnonicLayoutController</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Text/@EntryValue">'use strict';&#xD;
+/// &lt;reference path="../../lib/xp/global.ts" /&gt;&#xD;
+import { LayoutController } from '../../../lib/xp/layout/controller';&#xD;
+&#xD;
+const name = '$Controller$';&#xD;
+const type = 'layout';&#xD;
+const viewFile = resolve(`${name}.html`);&#xD;
+&#xD;
+export default class $Controller$LayoutController extends LayoutController {&#xD;
+&#xD;
+    constructor(request: any) {&#xD;
+        super(request);&#xD;
+        this.name = name;&#xD;
+        this.type = type;&#xD;
+        this.viewFile = viewFile;&#xD;
+    }&#xD;
+&#xD;
+    get() {&#xD;
+        this.model.regions = Object.keys(this.regions).map(k=&gt;this.regions[k]);&#xD;
+        return super.get();&#xD;
+    }&#xD;
+&#xD;
+    public static handleRequest(request: any) {&#xD;
+        return new $Controller$LayoutController(request).buildResponse().response;&#xD;
+    }&#xD;
+&#xD;
+} // ExampleLayoutController&#xD;
+&#xD;
+export const get = $Controller$LayoutController.handleRequest;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Categories/=Enonic/@EntryIndexedValue">Enonic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/CustomProperties/=Extension/@EntryIndexedValue">ts</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/CustomProperties/=FileName/@EntryIndexedValue">EnonicLayoutController</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Scope/=A201482625F4F7489CDC3DB0DBFB4C2D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Scope/=A201482625F4F7489CDC3DB0DBFB4C2D/Type/@EntryValue">InTypeScriptProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/Type/@EntryValue">InAnyProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Field/=Controller/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Field/=Controller/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Field/=Controller/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Section/=D9354210F6B8F94EB992837AFA9790AA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Section/=D9354210F6B8F94EB992837AFA9790AA/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Section/=D9354210F6B8F94EB992837AFA9790AA/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$.html" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Section/=D9354210F6B8F94EB992837AFA9790AA/Type/@EntryValue">TemplateReference</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Section/=D9354210F6B8F94EB992837AFA9790AA/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=750143909FBBED4284CA82351B554776/Section/=D9354210F6B8F94EB992837AFA9790AA/SectionReference/TemplateUid/@EntryValue">25A055EFBF01D346BBE2009318C7CC61</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Description/@EntryValue">EnonicPageController</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Text/@EntryValue">'use strict';&#xD;
+/// &lt;reference path="../../lib/xp/global.ts" /&gt;&#xD;
+import { PageController } from "../../../lib/xp/page/controller";&#xD;
+const name = '$Controller$';&#xD;
+const type = 'page';&#xD;
+const viewFile = resolve(`${name}.html`);&#xD;
+&#xD;
+export default class  $Controller$PageController extends PageController {&#xD;
+&#xD;
+    constructor(request: any) {&#xD;
+        super(request);&#xD;
+        this.name = name;&#xD;
+        this.type = type;&#xD;
+        this.viewFile = viewFile;&#xD;
+    }&#xD;
+&#xD;
+    get() {&#xD;
+       &#xD;
+        return super.get();&#xD;
+    }&#xD;
+&#xD;
+    public static handleRequest(request: any) {&#xD;
+        return new  $Controller$PageController(request).buildResponse().response;&#xD;
+    }&#xD;
+&#xD;
+} // ExamplePartController&#xD;
+&#xD;
+export const get =  $Controller$PageController.handleRequest;&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Categories/=Enonic/@EntryIndexedValue">Enonic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/CustomProperties/=Extension/@EntryIndexedValue">ts</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/CustomProperties/=FileName/@EntryIndexedValue">EnonicPageController</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Scope/=A201482625F4F7489CDC3DB0DBFB4C2D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Scope/=A201482625F4F7489CDC3DB0DBFB4C2D/Type/@EntryValue">InTypeScriptProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/Type/@EntryValue">InAnyProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Field/=Controller/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Field/=Controller/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Field/=Controller/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Section/=66A1A644234C4648A01E1183D31546E3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Section/=66A1A644234C4648A01E1183D31546E3/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Section/=66A1A644234C4648A01E1183D31546E3/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$.html" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Section/=66A1A644234C4648A01E1183D31546E3/Type/@EntryValue">TemplateReference</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Section/=66A1A644234C4648A01E1183D31546E3/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09AF2AF0822530498B41E7BD9530BB89/Section/=66A1A644234C4648A01E1183D31546E3/SectionReference/TemplateUid/@EntryValue">25A055EFBF01D346BBE2009318C7CC61</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Description/@EntryValue">EnonicPartController.ts</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Text/@EntryValue">'use strict';&#xD;
+/// &lt;reference path="../../lib/xp/global.ts" /&gt;&#xD;
+import { PartController } from "../../../lib/xp/part/controller";&#xD;
+const name = '$Controller$';&#xD;
+const type = 'part';&#xD;
+const viewFile = resolve(`${name}.html`);&#xD;
+&#xD;
+export default class  $Controller$PartController extends PartController {&#xD;
+&#xD;
+    constructor(request: any) {&#xD;
+        super(request);&#xD;
+        this.name = name;&#xD;
+        this.type = type;&#xD;
+        this.viewFile = viewFile;&#xD;
+    }&#xD;
+&#xD;
+    get() {&#xD;
+       &#xD;
+        return super.get();&#xD;
+    }&#xD;
+&#xD;
+    public static handleRequest(request: any) {&#xD;
+        return new  $Controller$PartController(request).buildResponse().response;&#xD;
+    }&#xD;
+&#xD;
+} // ExamplePartController&#xD;
+&#xD;
+export const get =  $Controller$PartController.handleRequest;&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Categories/=Enonic/@EntryIndexedValue">Enonic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/CustomProperties/=Extension/@EntryIndexedValue">ts</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/CustomProperties/=FileName/@EntryIndexedValue">EnonicPartController</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Scope/=A201482625F4F7489CDC3DB0DBFB4C2D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Scope/=A201482625F4F7489CDC3DB0DBFB4C2D/Type/@EntryValue">InTypeScriptProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/Type/@EntryValue">InAnyProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Field/=Controller/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Field/=Controller/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Field/=Controller/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Section/=DA321A076626B64D8BA4633F07FAD273/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Section/=DA321A076626B64D8BA4633F07FAD273/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Section/=DA321A076626B64D8BA4633F07FAD273/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$.html" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Section/=DA321A076626B64D8BA4633F07FAD273/Type/@EntryValue">TemplateReference</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Section/=DA321A076626B64D8BA4633F07FAD273/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD3C808F9164694A849892B53135D71F/Section/=DA321A076626B64D8BA4633F07FAD273/SectionReference/TemplateUid/@EntryValue">25A055EFBF01D346BBE2009318C7CC61</s:String></wpf:ResourceDictionary>

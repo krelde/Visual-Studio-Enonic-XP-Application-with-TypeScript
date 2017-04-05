@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<content-type>
+	<display-name>Article</display-name>
+	<super-type>base:structured</super-type>
+	<form>
+    <!--<input name="my-custom-selector" type="CustomSelector">
+      <label>My Custom Selector</label>
+      <occurrences minimum="0" maximum="1"/>
+      <config>
+        <service>my-custom-selector-service</service>
+        <option value="count">100</option>
+      </config>
+    </input>-->
+    <input type="TextLine" name="title">
+      <label>Title</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="TextArea" name="mainintro">
+      <label>Main intro</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="HtmlArea" name="mainbody">
+      <label>Main body</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input name="attachments" type="ContentSelector">
+      <label>Attachments</label>
+      <occurrences minimum="0" maximum="0"/>
+      <config>
+        <allowContentType>media:document</allowContentType>
+        <allowContentType>media:image</allowContentType>
+      </config>
+    </input>
+    <input name="relatedcontent" type="ContentSelector">
+      <label>Ralated content</label>
+      <occurrences minimum="0" maximum="0"/>
+      <config>
+        <relationship-type>system:reference</relationship-type>
+        <allow-content-type>article</allow-content-type>
+      </config>
+    </input>
+    <input type="ImageSelector" name="mainimage">
+      <label>Main image</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="ImageSelector" name="featureimage">
+      <label>Feature image</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+  </form>
+</content-type>

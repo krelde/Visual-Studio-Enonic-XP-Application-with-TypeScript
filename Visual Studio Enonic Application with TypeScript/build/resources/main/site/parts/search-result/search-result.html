@@ -1,0 +1,32 @@
+﻿<div class="container clearfix">
+    <h2 class="content-list-title" data-th-text="${pagename}"></h2>
+    <div class="search-info">
+        <p data-th-if="${numMatches gt 0}">
+            Du søkte på <strong data-th-text="${searchTerm}"></strong>, vi fant <span data-th-text="${numMatches}"></span> treff.
+        </p>
+        <form method="GET" data-th-action="${portal.pageUrl({'_path=' + searchPage})}" class="form-search" id="searchResultForm">
+            <input type="text" class="search-query" name="s" value="" id="s" placeholder="Søk" data-th-value="${searchTerm}" />
+            <button type="submit" class="search-btn" name="submit" id="searchsubmit" value="">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </form>
+    </div>
+
+    <div class="content-list">
+        <th:block data-th-each="hit : ${posts}">
+            <div data-th-class="${(hit.mainimage ? 'article content-pointer content-pointer-illustrated' : 'article content-pointer')}">
+                <th:block data-th-if="${hit.mainimage}">
+                    <a data-th-href="${portal.pageUrl({'_path=' + hit.path})}" class="content-pointer-image">
+                        <img data-th-src="${portal.imageUrl({'_id=' + hit.mainimage, '_scale=width(150,150)'})}" width="150" height="150" data-th-alt="${hit.title}"/>
+                    </a>
+                </th:block>
+                <h2>
+                    <a data-th-href="${portal.pageUrl({'_path=' + hit.path})}" data-th-text="${hit.title}"></a>
+                </h2>
+                <p data-th-utext="${hit.mainintro}">
+                </p>
+            </div>
+        </th:block>
+    </div>
+</div>
+

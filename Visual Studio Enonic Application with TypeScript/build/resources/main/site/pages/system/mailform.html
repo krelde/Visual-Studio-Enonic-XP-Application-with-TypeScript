@@ -1,0 +1,14 @@
+﻿<form method="POST" data-th-action="${systemPage}">
+    <fieldset>
+        <div class="form-field sender name"><label for="sendernavn">Ditt navn</label><input type="text" name="sendernavn" id="sendernavn"/>
+        </div>
+        <div class="form-field sender email"><label for="sender">Din epost</label><input name="sender" id="sender" type="text"/>
+        </div>
+        <div class="form-field receiver name"><label for="mottakernavn">Mottakers navn</label><input type="text" name="mottakernavn" id="mottakernavn"/>
+        </div>
+        <div class="form-field receiver email"><label for="mottaker">Mottakers epost</label><input name="mottaker" id="mottaker" type="text"/>
+        </div><input type="hidden" name="url" data-th-value="${sourceUrl}"/><input type="submit" class="btn btn-primary" value="Send tips"/>
+    </fieldset>
+    <a href="#" class="hide-form-container">Lukk vindu</a>
+</form>
+

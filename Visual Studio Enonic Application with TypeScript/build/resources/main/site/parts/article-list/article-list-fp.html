@@ -1,0 +1,16 @@
+﻿<th:block data-th-if="${pagename}">
+    <h3 class="section-title" data-th-text="${pagename}"></h3>
+</th:block>
+<th:block data-th-each="item, ikey : ${articleList}">
+    <div class="article content-pointer">
+        <h2>
+            <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" data-th-text="${item.name}"></a>
+        </h2>
+        <p>
+            <em class="date" data-th-text="${item.modified}"></em>
+        </p>
+        <p data-th-text="${item.intro}"></p>
+    </div>
+    <div class="row clearfix" data-th-if="${ikey.index == 1 || ikey.index == 3}">
+    </div>
+</th:block>

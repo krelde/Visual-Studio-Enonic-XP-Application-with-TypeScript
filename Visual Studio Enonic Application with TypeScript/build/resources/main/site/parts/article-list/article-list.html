@@ -1,0 +1,21 @@
+﻿<th:block data-th-if="${pagename}">
+    <h2 class="content-list-title" data-th-text="${pagename}"></h2>
+</th:block>
+
+<div class="content-list">
+    <th:block data-th-each="item : ${articleList}">
+        <div data-th-class="${(item.mainimage ? 'article content-pointer content-pointer-illustrated' : 'article content-pointer')}">
+            <th:block data-th-if="${item.mainimage}">
+                <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" class="content-pointer-image">
+                    <img data-th-src="${portal.imageUrl({'_id=' + item.mainimage, '_scale=width(150,150)'})}" width="150" height="150" data-th-alt="${item.title}" />
+                </a>
+            </th:block>
+            <h2>
+                <a data-th-href="${portal.pageUrl({'_path=' + item.path})}" data-th-text="${item.name}"></a>
+            </h2>
+            <p><em class="date" data-th-text="${item.modified}"></em></p>
+            <p data-th-utext="${item.mainintro}">
+            </p>
+        </div>
+    </th:block>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<part>
+    <display-name>focus-articles</display-name>
+    <config>
+      <input type="ContentSelector" name="focusarticles">
+        <label>Focus articles</label>
+        <occurrences minimum="1" maximum="3"/>
+        <config>
+          <relationship-type>system:reference</relationship-type>
+          <allow-content-type>article</allow-content-type>
+        </config>
+      </input>
+    </config>
+</part>

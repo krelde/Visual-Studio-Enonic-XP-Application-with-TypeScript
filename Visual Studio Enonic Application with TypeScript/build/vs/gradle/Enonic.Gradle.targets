@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project
+ ToolsVersion="4.0"
+ xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="EnonicGradle" DependsOnTargets="LogParams">
+    <MakeDir Directories="$(SolutionDir)home" />
+    <Exec Command="(set XP_HOME=$(SolutionDir)home) &amp; gradlew deploy" />
+  </Target>
+
+  <Target Name="LogParams">
+    <Message Text="The ProjectDir is '$(ProjectDir)'"/>
+    <Message Text="The ProjectPath is '$(ProjectPath)'"/>
+    <Message Text="The NugetProjectDir is '$(NugetProjectDir)'"/>
+    <Message Text="The CustomToolIncludeName is '$(CustomToolIncludeName)'"/>
+    <Message Text="The RootNamespaceToReplace is '$(RootNamespaceToReplace)'"/>
+    <Message Text="The Solution name is '$(SolutionName)'"/>
+    <Message Text="The SolutionDir is '$(SolutionDir)'"/>
+  </Target>
+</Project>
