@@ -1,4 +1,4 @@
-#Enonic XP starter template for Visual Studio with Typescript 
+# Enonic XP starter template for Visual Studio with Typescript 
 
 This template contains what you need to create an Enonic XP project in Visual studio.
 
