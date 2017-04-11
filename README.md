@@ -10,20 +10,18 @@ The build process is:
 
 ## Usage
 
-You can either download the project and rename it or you can download the templates and add them to Visual studio. 
+You can either download the project and rename it or you can download the templates and add them to Visual studio.
 
 You can change the XP_HOME location for your project by changing the Enonic.Gradle.targets file located under build/vs/gradle. The default is (SolutionDir)home.
 
 ## Templates
 
-In the template folder you can find a project template, three item templates and some resharper tempaltes. The project template contains the accual project, the item templates contains tempaltes for Enonic content types, pages and parts. 
+In the template folder you can find a project template, three item templates and some resharper templates. The project template contains the actual project, the item templates contains templates for Enonic content types, pages and parts.
 
-The defualt Visual Studio template location should be \Users\[Current user]\Documents\Visual Studio xxxx\Templates\[ProjectTemplates or ItemTemplates]\TypeScript
+The defualt Visual Studio template location should be \Users[Current user]\Documents\Visual Studio xxxx\Templates[ProjectTemplates or ItemTemplates]\TypeScript
 
 The resharper templates contains templates for adding Enonic page, part and layout typescript controllers with html files.
 
 ## Other 
 
-Dont add xml files using visual studio (Add --> New Item --> XML File), this will add en XML with UTF-8-BOM encoding witch Enonic XP does not support (use the item templates to add create xml files for content types, pages and parts). 
-
-
+Don’t add xml files using visual studio (Add --> New Item --> XML File), this will add an XML with UTF-8-BOM encoding witch Enonic XP does not support (use the item templates to add create xml files for content types, pages and parts).
