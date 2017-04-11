@@ -8,6 +8,8 @@ The build process is:
 1) Compile typescript files  
 2) Build and deploy the application with gradle.
 
+Note: you need Typescript for Visual Studio
+
 ## Usage
 
 You can either download the project and rename it or you can download the templates and add them to Visual studio.
