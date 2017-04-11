@@ -49,13 +49,11 @@
     <Content Include="src\main\java\.gitkeep" />
     <Content Include="src\main\resources\admin\tools\.gitkeep" />
     <Content Include="src\main\resources\admin\widgets\.gitkeep" />
-    <Content Include="src\main\resources\application.svg" />
     <Content Include="src\main\resources\application.xml" />
     <Content Include="src\main\resources\assets\.gitkeep" />
     <Content Include="src\main\resources\lib\.gitkeep" />
     <Content Include="src\main\resources\services\.gitkeep" />
     <Content Include="src\main\resources\site\content-types\.gitkeep" />
-    <Content Include="src\main\resources\site\content-types\article.xml" />
     <Content Include="src\main\resources\site\error\.gitkeep" />
     <Content Include="src\main\resources\site\filters\.gitkeep" />
     <Content Include="src\main\resources\site\i18n\.gitkeep" />
