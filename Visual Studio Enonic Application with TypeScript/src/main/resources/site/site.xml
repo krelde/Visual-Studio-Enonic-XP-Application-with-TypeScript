@@ -1,50 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
   <config>
-    <input type="ContentSelector" name="searchPage">
-      <label>Search page</label>
-      <occurrences minimum="0" maximum="1"/>
-      <config>
-        <relationship-type>system:reference</relationship-type>
-        <allow-content-type>article</allow-content-type>
-      </config>
-    </input>
-    <input type="ContentSelector" name="newsContainerPage">
-      <label>News root page</label>
-      <occurrences minimum="0" maximum="1"/>
-      <config>
-        <relationship-type>system:reference</relationship-type>
-        <allow-content-type>article</allow-content-type>
-      </config>
-    </input>
-    <input type="ContentSelector" name="systemPage">
-      <label>System page</label>
-      <occurrences minimum="0" maximum="1"/>
-      <config>
-        <relationship-type>system:reference</relationship-type>
-        <allow-content-type>system</allow-content-type>
-      </config>
-    </input>
-    <input type="TextLine" name="adress">
-      <label>Adress</label>
-      <occurrences minimum="0" maximum="1"/>
-    </input>
-    <input type="TextLine" name="phone">
-      <label>Phone number</label>
-      <occurrences minimum="0" maximum="1"/>
-    </input>
-    <input type="TextLine" name="email">
-      <label>Email adress</label>
-      <occurrences minimum="0" maximum="1"/>
-    </input>
-    <input type="TextLine" name="editor">
-      <label>Web editor</label>
-      <occurrences minimum="0" maximum="1"/>
-    </input>
-    <input type="TextLine" name="editoremail">
-      <label>Web editor email</label>
-      <occurrences minimum="0" maximum="1"/>
-    </input>
   </config>
-  <x-data mixin="menu-item"/>
 </site>
