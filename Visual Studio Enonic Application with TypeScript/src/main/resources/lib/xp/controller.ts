@@ -26,21 +26,22 @@ export abstract class Controller {
     type: string;
     viewFile: string; // resolved path
     site:any;
-    contentLib: any;
+    contentLib: lib.xp.content;
     portalLib: any;
     mailLib:any;
     constructor(request: any) {
+        this.portalLib = portal;
         this.request = request;
         this.cookies = request.cookies;
         this.headers = request.headers;
         this.method  = request.method;
         this.mode    = request.mode;
         this.params  = request.params;
-        this.content = portal.getContent(); 
-        this.component = portal.getComponent() || this.content.page;
+        this.content = this.portalLib.getContent(); 
+        this.component = this.portalLib.getComponent() || this.content.page;
         this.config    = this.component.config;
-        this.siteConfig = portal.getSiteConfig();
-        this.site = portal.getSite();
+        this.siteConfig = this.portalLib.getSiteConfig();
+        this.site = this.portalLib.getSite();
         this.contentLib = content;
         this.mailLib = mail;
         this.model = {};
@@ -56,6 +57,7 @@ export abstract class Controller {
     }
     //fistil f = asdjks;
     get(): any {
+        //this.contentLib.getChildren({})
         this.model.name = this.name;
         return this; // chainable
     }

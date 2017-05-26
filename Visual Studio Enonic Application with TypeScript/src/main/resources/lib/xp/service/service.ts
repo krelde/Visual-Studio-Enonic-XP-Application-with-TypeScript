@@ -1,23 +1,13 @@
-﻿
-
-'use strict';
-
+﻿'use strict';
 import portal = require("xp/portal");
-
-
-
 export abstract class Service {
-
-    
-    
     portalLib: lib.xp.portal;
     contentType: string;
     body: any;
     method: any;
-
+    response:any;
     params:any;
     constructor(request: any) {
-        
         this.portalLib = portal;
         this.contentType = 'application/json';
         this.method = request.method;

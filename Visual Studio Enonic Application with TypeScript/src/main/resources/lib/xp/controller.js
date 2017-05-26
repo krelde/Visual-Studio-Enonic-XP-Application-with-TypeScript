@@ -10,17 +10,18 @@ var content = require("xp/content");
 var mail = require("xp/mail");
 var Controller = (function () {
     function Controller(request) {
+        this.portalLib = portal;
         this.request = request;
         this.cookies = request.cookies;
         this.headers = request.headers;
         this.method = request.method;
         this.mode = request.mode;
         this.params = request.params;
-        this.content = portal.getContent();
-        this.component = portal.getComponent() || this.content.page;
+        this.content = this.portalLib.getContent();
+        this.component = this.portalLib.getComponent() || this.content.page;
         this.config = this.component.config;
-        this.siteConfig = portal.getSiteConfig();
-        this.site = portal.getSite();
+        this.siteConfig = this.portalLib.getSiteConfig();
+        this.site = this.portalLib.getSite();
         this.contentLib = content;
         this.mailLib = mail;
         this.model = {};
@@ -34,6 +35,7 @@ var Controller = (function () {
     };
     //fistil f = asdjks;
     Controller.prototype.get = function () {
+        //this.contentLib.getChildren({})
         this.model.name = this.name;
         return this; // chainable
     };

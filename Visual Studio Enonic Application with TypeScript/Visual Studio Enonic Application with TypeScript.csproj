@@ -89,6 +89,33 @@
   <ItemGroup>
     <TypeScriptCompile Include="src\main\resources\lib\xp\controller.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\auth.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IGeoPoint.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ITaskInfo.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IAttachmentData.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IAuthenticationResult.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ICache.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ICallback.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IComponentBase.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IContentDataResult.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IContenxt.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ICreateContentParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ICreateMediaParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ICreateRepoParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IGetChildrenParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IImageUrlParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IMessage.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IMessageAttachment.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IPrincipalBase.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IModifyParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IPermissions.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IPrincipalsResult.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IPublicationResult.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IPublishParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IQueryParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IRepoConnectionParams.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IRequest.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IResource.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\ISetPermissionsParams.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\xslt.d.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\websocket.d.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\value.d.ts" />
@@ -107,10 +134,12 @@
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\cahce.d.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\thymeleaf.d.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\xp.d.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\error\error.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\global.d.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\layout\controller.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\page\controller.ts" />
     <TypeScriptCompile Include="src\main\resources\lib\xp\part\controller.ts" />
+    <TypeScriptCompile Include="src\main\resources\lib\xp\service\service.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="build\vs\ts\Microsoft.Typescript.targets" />
@@ -136,6 +165,9 @@
     <Content Include="build\vs\ts\Microsoft.TypeScript.Default.props" />
     <Content Include="build\vs\ts\Microsoft.TypeScript.DNX.targets" />
     <Content Include="build\vs\ts\Microsoft.TypeScript.jsproj.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\main\resources\lib\xp\definitions\data interface\IContentDataBase.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <AssemblyName>EnonicStarterTypescript</AssemblyName>
